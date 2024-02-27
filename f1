@@ -2,9 +2,9 @@
 
 int main() {
    int low, high, i, flag;
-   printf("Enter two numbers(intervals): ");
+   printf("Enter two values (intervals): ");
    scanf("%d %d", &low, &high);
-   printf("Prime numbers between %d and %d are: ", low, high);
+   printf("Prime number which are between %d and %d are: ", low, high);
 
    // iteration until low is not equal to high
    while (low < high) {
@@ -12,7 +12,8 @@ int main() {
 
       // ignore numbers less than 2
       if (low <= 1) {
-         low++;
+         
+++low;
          continue;
       }
 
