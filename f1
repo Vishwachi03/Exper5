@@ -12,7 +12,7 @@ int main() {
 
       // ignore numbers less than 2
       if (low <= 1) {
-         ++low;
+         low++;
          continue;
       }
 
@@ -30,7 +30,7 @@ int main() {
 
       // to check prime for the next number
       // increase low by 1
-      ++low;
+      low++;
    }
 
    return 0;
